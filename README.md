@@ -1,7 +1,7 @@
 # SendNodes
 ## Nodal Distance Based Additive Synthesiser
 2023 Kevin Blackistone
-\
+
 ### Fatures
 Dual step sequencers\
 Keyboard assign and play\
@@ -11,7 +11,7 @@ In sequence playback by assign numbers\
 note-based pitch-shift for tuned playback (equal temperment and just intonation)\
 MIDI sync\
 Present load/save\
-\
+
 ### Production details
 Produced using Processing 3.5.4 (some MIDIBus errors using processing 4 I haven't tried fixing)\
 Requires Sound and MIDIBus libraries.\
@@ -19,7 +19,7 @@ Tested only on Mac OS, ¿may require some MIDI reconfiguration for PC?\
 App in directory \
 \
 General functionality below, also available in-app with rollover or "?" icon\
-\
+
 ## USE
 MIDI: Select MIDI and clock source at the top\
       Clock will turn red if not in beat until play is re-triggered by the MIDI source\
@@ -66,4 +66,3 @@ TONE: Records keyboard 'notes' and automates length cutoffs, shake and oscillato
 \
 PRESETS: Select a preset, then SHIFT + [LOAD/SAVE]. Highlighted preset is last one loaded or saved\
 RESET: Clears sequencers and nodes";\
-\
